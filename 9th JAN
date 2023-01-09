@@ -1,0 +1,27 @@
+##########################################################
+#                                                        #
+#    TITLE : Equality (==) && Strict Equality(===)       #
+#                                                        #
+##########################################################
+
+- The equality operater checks whether two operands are equal,returning a Boolean value(True OR False).Unlike Strict Equality(===)
+it converts both operands to same type if not.Means Stict Equality always returns False,both operands are of different type.
+
+If the operands have the same type, they are compared as follows:
+Object: return true only if both operands reference the same object.
+String: return true only if both operands have the same characters in the same order.
+Number: return true only if both operands have the same value. +0 and -0 are treated as the same value. If either operand is NaN, return false; so, NaN is never equal to NaN.
+Boolean: return true only if operands are both true or both false.
+BigInt: return true only if both operands have the same value.
+Symbol: return true only if both operands reference the same symbol.
+
+If one of the operands is null or undefined, the other must also be null or undefined to return true.
+
+convertion happens before comapring as follows
+*binaryAndString - both converted into number
+*numberAndString - string converted into number
+
+To see Examples follow the below link:
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Equality#examples
+
+
