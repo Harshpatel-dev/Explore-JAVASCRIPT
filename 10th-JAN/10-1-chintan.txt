@@ -1,0 +1,31 @@
+##########################################################
+#                                                        #
+#           TITLE : Array object                         #
+#                                                        #
+##########################################################
+
+In Javascript there are two types we can declare a array 
+
+1) simply assigning a value (e.g - var nums = [1,2,3];)
+
+2) By creating array object/constructor (e.g - var nums = new Array(1,2,3);)
+
+When we make a array by object
+i> single parameter allocates only the space of that length
+ii> mutiple parameter will make array of that much elements
+
+*************code************* 
+
+const arr1 = new Array(3)
+const arr2 = new Array(1,2,3)
+
+
+console.log(arr1);
+console.log(arr2);
+
+
+*************output*************
+
+[ <3 empty items> ]
+[ 1, 2, 3 ]
+
