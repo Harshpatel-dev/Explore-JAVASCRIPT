@@ -1,0 +1,41 @@
+##########################################################
+#                                                        #
+#           TITLE : Scopes in javascript                 #
+#                                                        #
+##########################################################
+
+JavaScript has 3 types of scope:
+
+Block scope
+Function scope
+Global scope
+
+
+the var has global scope while let and const have block scope.
+
+so var can be redeclared and changed 
+
+here name has global scope so we can access it inside a block and change it's value, age and city have block scope so we can't use it outside the block
+
+
+*************code************* 
+
+var name = "chintan";
+let age = "21";
+const city = "Surat";
+
+{
+	var name = "jack";
+	let age = "25";
+	const city = "new york";
+}
+
+console.log(name); 
+console.log(age);
+console.log(city);
+
+*************output*************
+
+jack
+21
+Surat
