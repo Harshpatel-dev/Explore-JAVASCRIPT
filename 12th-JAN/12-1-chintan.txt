@@ -1,0 +1,54 @@
+##########################################################
+#                                                        #
+#      TITLE : Truthy values in JavaScript               #
+#                                                        #
+##########################################################
+
+A truthy value simply means a value that is considered true when evaluated in a boolean context
+
+so in javascipt there are truthys like
+->all real number(excluding 0 it will return "Flase")
+->empty objects and arrays
+
+
+comparing this with python as python evalutes empty objects as "false" while javascript doesn't
+
+*************code************* 
+
+const arr1 = ["chintan", "gamit"];
+const arr2 = [];
+const list1 = { name : "chintan" , sname : "gamit"};
+const list2 = {};
+
+
+if (arr1) {
+  console.log("Display1");
+} else {
+  console.log("Empty1");
+}
+
+if (arr2) {
+  console.log("Display2");
+} else {
+  console.log("Empty2");
+}
+
+if (list1) {
+  console.log("Display3");
+} else {
+  console.log("Empty3");
+}
+
+if (list2) {
+  console.log("Display4");
+} else {
+  console.log("Empty4");
+}
+
+*************output*************
+
+Display1
+Display2
+Display3
+Display4
+
