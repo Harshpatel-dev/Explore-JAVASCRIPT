@@ -1,0 +1,25 @@
+##########################################################
+#                                                        #
+#      TITLE : Array slicing in JavaScript               #
+#                                                        #
+##########################################################
+
+array.slice(start_index, end_index)
+
+array slicing in javascript wors same as in python ,
+
+and negative indexing is that it will start from reverse
+
+*************code************* 
+const arr1 = ["chintan", "gamit" , "surat" ,"gujarat"];
+const result = arr1.slice(-2,3)
+
+console.log(result)
+console.log(result[0])
+
+*************output*************
+
+[ 'surat' ]
+surat
+
+
