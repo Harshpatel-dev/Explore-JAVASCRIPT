@@ -1,0 +1,24 @@
+##########################################################
+#                                                        #
+#      TITLE : Array-destructuring in JavaScript         #
+#                                                        #
+##########################################################
+
+Destructuring the array in JavaScript simply means extracting multiple values from data stored in objects and arrays. Array-destructuring lets you batch-extract values of Array elements via patterns that look like Array literals. That means the destructing assignment syntax is a JavaScript expression that, makes it possible to unpack values from arrays, or properties from objects, into distinct variables.
+
+We can use Array-destructuring to swap the values of two variables without needing a temporary variable:
+
+*************code************* 
+let a = 10 ;
+let b = 20 ;
+
+[a,b]=[b,a];
+
+console.log(a,b)
+
+*************output*************
+
+20 10
+
+
+
