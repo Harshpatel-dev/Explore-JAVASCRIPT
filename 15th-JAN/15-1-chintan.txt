@@ -1,0 +1,23 @@
+##########################################################
+#                                                        #
+#      TITLE : Trim in JavaScript         #
+#                                                        #
+##########################################################
+
+trim ins tring removes sequences of whitespaces and line terminators from both the start and the end of the string. It doesn't change the original string but returns a new string without white spaces. But if a whitespace is found in between two letters then this whitespace is preserved.
+
+*************code************* 
+
+const name = " chintan ";
+const b = name.trim();
+
+console.log(name);
+console.log(name);
+
+*************output*************
+
+ chintan 
+chintan
+
+
+
